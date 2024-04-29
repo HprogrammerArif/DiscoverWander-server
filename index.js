@@ -60,6 +60,10 @@ async function run() {
       res.send(result);
     })
 
+    app.patch('/touristSpot', async(req, res) => {
+      
+    })
+
 
     app.delete('/touristSpot/:id', async(req, res) => {
           const id = req.params.id;
